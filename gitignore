@@ -1,0 +1,5 @@
+data.db
+data.json
+uploads/
+__pycache__/
+*.pyc
