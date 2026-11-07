@@ -26,9 +26,9 @@ from collections import defaultdict
 # ==================== الإعدادات ====================
 PORT = int(os.environ.get("PORT", 8000))
 HOST = os.environ.get("HOST", "0.0.0.0")
-DATA_FILE = "data.json"          # للتوافق مع النسخة القديمة (استيراد)
-DB_FILE = "data.db"              # قاعدة البيانات الجديدة
-UPLOAD_DIR = "uploads"
+DB_FILE = "/data/data.db"              # قاعدة البيانات في مسار التخزين الآمن
+UPLOAD_DIR = "/data/uploads"           # مجلد الفيديوهات في مسار التخزين الآمن
+#تعليق 
 SESSION_HOURS = 24
 MAX_UPLOAD_MB = 500
 
